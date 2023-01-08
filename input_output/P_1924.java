@@ -3,8 +3,8 @@ import java.util.Scanner ;
 public class P_1924 {
     public static void main (String [] args) {
         Scanner sc = new Scanner(System.in) ;
-        int[] months = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31} ;
-        String[] days = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"} ;
+        int [] months = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31} ;
+        String [] days = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"} ;
 
         int month = sc.nextInt() ;
         if (month > 12 || month < 1) System.exit(0) ;
